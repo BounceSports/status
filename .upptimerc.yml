@@ -1,31 +1,39 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+# Bounce status page — Upptime (https://upptime.js.org).
+# Public repository: list only public addresses, never a secret, key or internal URL.
+owner: BounceSports
+repo: status
+
+# Every incident is a GitHub issue assigned here: GitHub emails the assignee.
+assignees:
+  - maximebounce
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  - name: Integrations API
+    url: https://api.bouncesports.co/health
+  - name: Integrations API (staging)
+    url: https://api-staging.bouncesports.co/health
+  - name: Shop
+    url: https://bouncesports.co
+  - name: Bounce Pro simulator
+    url: https://pro-simulation.bouncesports.co
+  - name: Bounce Ops
+    url: https://ops.bouncesports.co
+  - name: FFT campaign
+    url: https://campagne-fft.bouncesports.co
+  - name: Partner offers
+    url: https://partnership.bouncesports.co
+  - name: Bounce Circular
+    url: https://circular.bouncesports.co
+  - name: Odoo
+    url: https://odoo.bouncesports.co/web/health
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  cname: status.bouncesports.co
+  name: Bounce Status
+  introTitle: "**Bounce** service status"
+  introMessage: Live availability of Bounce's apps and APIs, checked every few minutes.
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+    - title: bouncesports.co
+      href: https://bouncesports.co
