@@ -94,18 +94,20 @@
     "url": "https://campagne-fft.bouncesports.co",
     "icon": "https://icons.duckduckgo.com/ip3/campagne-fft.bouncesports.co.ico",
     "slug": "fft-campaign",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1432,
-    "timeDay": 1039,
-    "timeWeek": 1264,
-    "timeMonth": 1432,
-    "timeYear": 1432,
-    "dailyMinutesDown": {}
+    "time": 1394,
+    "timeDay": 646,
+    "timeWeek": 1138,
+    "timeMonth": 1394,
+    "timeYear": 1394,
+    "dailyMinutesDown": {
+      "2026-11-10": 0
+    }
   },
   {
     "name": "Partner offers",
